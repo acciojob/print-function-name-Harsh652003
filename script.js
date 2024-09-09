@@ -1,6 +1,5 @@
-//your JS code here. If requi
- function functionName  () {
+function functionName() {
   alert(arguments.callee.name); 
-};
 
-functionName.();
+
+functionName();
