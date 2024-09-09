@@ -1,6 +1,6 @@
-//your JS code here. If required.
- function myFunction () {
-  alert(myFunction.name); // Outputs: "myFunction"
+//your JS code here. If requi
+const  myFunction= function () {
+  alert(arguments.callee.name); 
 };
 
 myFunction();
