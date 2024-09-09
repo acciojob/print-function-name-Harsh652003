@@ -1,6 +1,6 @@
 //your JS code here. If requi
-const  myFunction= function () {
+ function functionName  () {
   alert(arguments.callee.name); 
 };
 
-myFunction();
+functionName.();
